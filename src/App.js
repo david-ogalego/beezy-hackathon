@@ -14,9 +14,11 @@ class App extends Component {
       results: [],
       typeSearching: 'all',
       urlBingSearch: 'https://api.cognitive.microsoft.com/bing/v7.0/search',
-      dropdownOpen: false
+      dropdownOpen: false,
+      dropdownOpen2: false
     };
     this.toggle = this.toggle.bind(this);
+    this.toggle2 = this.toggle2.bind(this);
   }
   search = () => {
     const searchQuery = this.state.querySearch;
@@ -66,6 +68,11 @@ class App extends Component {
       dropdownOpen: !this.state.dropdownOpen
     });
   }
+  toggle2() {
+    this.setState({
+      dropdownOpen2: !this.state.dropdownOpen2
+    });
+  }
   render() {
     return (
       <div>
@@ -88,6 +95,19 @@ class App extends Component {
                         <DropdownItem>Videos</DropdownItem>
                         <DropdownItem divider />
                         <DropdownItem>Webpages</DropdownItem>
+                      </DropdownMenu>
+                    </ButtonDropdown></InputGroupButton>
+                    <InputGroupButton>
+                    <ButtonDropdown isOpen={this.state.dropdownOpen2} toggle={this.toggle2}>
+                      <DropdownToggle caret>
+                        Freshness
+                      </DropdownToggle>
+                      <DropdownMenu >
+                        <DropdownItem>Day</DropdownItem>
+                        <DropdownItem divider />
+                        <DropdownItem>Week</DropdownItem>
+                        <DropdownItem divider />
+                        <DropdownItem>Month</DropdownItem>
                       </DropdownMenu>
                     </ButtonDropdown></InputGroupButton>
                     <Input placeholder="Add your topic here..." onChange={this.onChangeInput} />

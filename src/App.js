@@ -29,7 +29,7 @@ class App extends Component {
     }).then(function(response) {
       return response.json();
     }).then((results) => {
-      const resultsSearching = this.state.typeSearching === 'all' ? results.webPages : results.value;
+      const resultsSearching = this.state.typeSearching === 'all' ? results.webPages.value : results.value;
       const resultsParsed = resultsSearching.map((valueSearch) => {
         return {
           title: valueSearch.name,

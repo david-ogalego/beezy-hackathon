@@ -9,13 +9,15 @@ export default class List extends Component  {
         };
     }
     seeTags = (description) => {
+        var data = new FormData();
+        data.append( "json", JSON.stringify( description ) );
         fetch(`https://westus.api.cognitive.microsoft.com/text/analytics/v2.0/keyPhrases`, {
           headers: {
             "Content-Type": "application/json",
             "Ocp-Apim-Subscription-Key": "41c9440bc5814ece8dcd300edb0724f6"
           },
           method: "POST",
-          data: description,
+          data,
           mode: "cors"
         }).then(function(response) {
           return response.json();
@@ -35,17 +37,16 @@ export default class List extends Component  {
         <ul>
             {this.props.items.map(element =>
                 <li>
+                    <p>
                     Title: {element.title}
+                    </p>
+                    <p>
                     Description: {element.description}
+                    </p>
+                    <p>
                     Url: {element.url}
-                    {/* <Button onClick={() => this.seeTags(element.description)} />
-                    <ul>
-                        {this.state.tags.map(tag =>
-                            <li>
-                                {tag.title}
-                            </li>
-                        )}
-                    </ul> */}
+                    </p>
+                    <Button >See tags</Button>
                 </li>
             )}
         </ul>

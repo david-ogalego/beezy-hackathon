@@ -26,7 +26,7 @@ class App extends Component {
     }).then(function(response) {
       return response.json();
     }).then((results) => {
-      const resultsSearching = this.state.typeSearching === 'all' ? results.webPages : results.value;
+      const resultsSearching = this.state.typeSearching === 'all' ? results.webPages.value : results.value;
       const resultsParsed = resultsSearching.map((valueSearch) => {
         return {
           title: valueSearch.name,
@@ -65,9 +65,16 @@ class App extends Component {
         <Button color="primary" onClick={this.search} >Search</Button>
         <Input type="select" name="select" id="exampleSelect" onChange={this.onChangeSelect}>
             <option>All</option>
+            <option>Images</option>
             <option>News</option>
             <option>Videos</option>
             <option>Webpages</option>
+          </Input>
+          <Input type="select" name="select" id="filterSelect">
+            <option>Freshness</option>
+            <option>Day</option>
+            <option>Week</option>
+            <option>Month</option>
           </Input>
         <List items={this.state.results}/>
       </div>

@@ -137,9 +137,8 @@ body, html {
 
 .header {
   background: url("header.png") no-repeat center top;
-  background-color: black;
-  height: 162px;
-  width: 1187px; }
+  height: 217px;
+  width: 1189px; }
 
 .dropdown.dropdown-lg .dropdown-menu {
   margin-top: -1px;

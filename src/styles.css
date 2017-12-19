@@ -1,0 +1,185 @@
+@font-face {
+  font-family: "segoe-ui";
+  src: url("./fonts/segoe-ui/west-european/light/segoe-ui--light.eot");
+  src: url("./fonts/segoe-ui/west-european/light/segoe-ui--light.eot?#iefix") format("embedded-opentype"), url("./fonts/segoe-ui/west-european/light/segoe-ui--light.woff") format("woff"), url("./fonts/segoe-ui/west-european/light/segoe-ui--light.ttf") format("truetype"), url("./fonts/segoe-ui/west-european/light/segoe-ui--light.svg#segoe-ui") format("svg");
+  font-weight: 100;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased; }
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: "segoe-ui";
+    src: url("./fonts/segoe-ui/west-european/light/segoe-ui--light.svg#segoe-ui") format("svg"); } }
+
+@font-face {
+  font-family: "segoe-ui";
+  src: url("./fonts/segoe-ui/west-european/semilight/segoe-ui--semilight.eot");
+  src: url("./fonts/segoe-ui/west-european/semilight/segoe-ui--semilight.eot?#iefix") format("embedded-opentype"), url("./fonts/segoe-ui/west-european/semilight/segoe-ui--semilight.woff") format("woff"), url("./fonts/segoe-ui/west-european/semilight/segoe-ui--semilight.ttf") format("truetype"), url("./fonts/segoe-ui/west-european/semilight/segoe-ui--semilight.svg#segoe-ui") format("svg");
+  font-weight: 300;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased; }
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: "segoe-ui";
+    src: url("./fonts/segoe-ui/west-european/semilight/segoe-ui--semilight.svg#segoe-ui") format("svg"); } }
+
+@font-face {
+  font-family: "segoe-ui";
+  src: url("./fonts/segoe-ui/west-european/normal/segoe-ui--normal.eot");
+  src: url("./fonts/segoe-ui/west-european/normal/segoe-ui--normal.eot?#iefix") format("embedded-opentype"), url("./fonts/segoe-ui/west-european/normal/segoe-ui--normal.woff") format("woff"), url("./fonts/segoe-ui/west-european/normal/segoe-ui--normal.ttf") format("truetype"), url("./fonts/segoe-ui/west-european/normal/segoe-ui--normal.svg#segoe-ui") format("svg");
+  font-weight: 400;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased; }
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: "segoe-ui";
+    src: url("./fonts/segoe-ui/west-european/normal/segoe-ui--normal.svg#segoe-ui") format("svg"); } }
+
+@font-face {
+  font-family: "segoe-ui";
+  src: url("./fonts/segoe-ui/west-european/semibold/segoe-ui--semibold.eot");
+  src: url("./fonts/segoe-ui/west-european/semibold/segoe-ui--semibold.eot?#iefix") format("embedded-opentype"), url("./fonts/segoe-ui/west-european/semibold/segoe-ui--semibold.woff") format("woff"), url("./fonts/segoe-ui/west-european/semibold/segoe-ui--semibold.ttf") format("truetype"), url("./fonts/segoe-ui/west-european/semibold/segoe-ui--semibold.svg#segoe-ui") format("svg");
+  font-weight: 600;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased; }
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: "segoe-ui";
+    src: url("./fonts/segoe-ui/west-european/semibold/segoe-ui--semibold.svg#segoe-ui") format("svg"); } }
+
+@font-face {
+  font-family: "segoe-ui";
+  src: url("./fonts/segoe-ui/west-european/bold/segoe-ui--bold.eot");
+  src: url("./fonts/segoe-ui/west-european/bold/segoe-ui--bold.eot?#iefix") format("embedded-opentype"), url("./fonts/segoe-ui/west-european/bold/segoe-ui--bold.woff") format("woff"), url("./fonts/segoe-ui/west-european/bold/segoe-ui--bold.ttf") format("truetype"), url("./fonts/segoe-ui/west-european/bold/segoe-ui--bold.svg#segoe-ui") format("svg");
+  font-weight: 800;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased; }
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: "segoe-ui";
+    src: url("./fonts/segoe-ui/west-european/bold/segoe-ui--bold.svg#segoe-ui") format("svg"); } }
+
+@font-face {
+  font-family: "freight-text-pro";
+  src: url("./fonts/freighttext-pro/book-regular/freighttext-pro--book.eot");
+  src: url("./fonts/freighttext-pro/book-regular/freighttext-pro--book.eot?#iefix") format("embedded-opentype"), url("./fonts/freighttext-pro/book-regular/freighttext-pro--book.woff") format("woff"), url("./fonts/freighttext-pro/book-regular/freighttext-pro--book.ttf") format("truetype"), url("./fonts/freighttext-pro/book-regular/freighttext-pro--book.svg#freight-text-pro") format("svg");
+  font-weight: 400;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased; }
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: "freight-text-pro";
+    src: url("./fonts/freighttext-pro/book-regular/freighttext-pro--book.svg#freight-text-pro") format("svg"); } }
+
+@font-face {
+  font-family: "freight-text-pro";
+  src: url("./fonts/freighttext-pro/book-italic/freighttext-pro--book-italic.eot");
+  src: url("./fonts/freighttext-pro/book-italic/freighttext-pro--book-italic.eot?#iefix") format("embedded-opentype"), url("./fonts/freighttext-pro/book-italic/freighttext-pro--book-italic.woff") format("woff"), url("./fonts/freighttext-pro/book-italic/freighttext-pro--book-italic.ttf") format("truetype"), url("./fonts/freighttext-pro/book-italic/freighttext-pro--book-italic.svg#freight-text-pro") format("svg");
+  font-weight: 400;
+  font-style: italic;
+  -webkit-font-smoothing: antialiased; }
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: "freight-text-pro";
+    src: url("./fonts/freighttext-pro/book-italic/freighttext-pro--book-italic.svg#freight-text-pro") format("svg"); } }
+
+@font-face {
+  font-family: "freight-text-pro";
+  src: url("./fonts/freighttext-pro/medium-italic/freighttext-pro--medium-italic.eot");
+  src: url("./fonts/freighttext-pro/medium-italic/freighttext-pro--medium-italic.eot?#iefix") format("embedded-opentype"), url("./fonts/freighttext-pro/medium-italic/freighttext-pro--medium-italic.woff") format("woff"), url("./fonts/freighttext-pro/medium-italic/freighttext-pro--medium-italic.ttf") format("truetype"), url("./fonts/freighttext-pro/medium-italic/freighttext-pro--medium-italic.svg#freight-text-pro") format("svg");
+  font-weight: 500;
+  font-style: italic;
+  -webkit-font-smoothing: antialiased; }
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: "freight-text-pro";
+    src: url("./fonts/freighttext-pro/medium-italic/freighttext-pro--medium-italic.svg#freight-text-pro") format("svg"); } }
+
+@font-face {
+  font-family: "freight-text-pro";
+  src: url("./fonts/freighttext-pro/bold/freighttext-pro--bold.eot");
+  src: url("./fonts/freighttext-pro/bold/freighttext-pro--bold.eot?#iefix") format("embedded-opentype"), url("./fonts/freighttext-pro/bold/freighttext-pro--bold.woff") format("woff"), url("./fonts/freighttext-pro/bold/freighttext-pro--bold.ttf") format("truetype"), url("./fonts/freighttext-pro/bold/freighttext-pro--bold.svg#freight-text-pro") format("svg");
+  font-weight: 700;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased; }
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: "freight-text-pro";
+    src: url("./fonts/freighttext-pro/bold/freighttext-pro--bold.svg#freight-text-pro") format("svg"); } }
+
+@font-face {
+  font-family: "freight-text-pro";
+  src: url("./fonts/freighttext-pro/bold-italic/freighttext-pro--bold-italic.eot");
+  src: url("./fonts/freighttext-pro/bold-italic/freighttext-pro--bold-italic.eot?#iefix") format("embedded-opentype"), url("./fonts/freighttext-pro/bold-italic/freighttext-pro--bold-italic.woff") format("woff"), url("./fonts/freighttext-pro/bold-italic/freighttext-pro--bold-italic.ttf") format("truetype"), url("./fonts/freighttext-pro/bold-italic/freighttext-pro--bold-italic.svg#freight-text-pro") format("svg");
+  font-weight: 700;
+  font-style: italic;
+  -webkit-font-smoothing: antialiased; }
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: "freight-text-pro";
+    src: url("./fonts/freighttext-pro/bold-italic/freighttext-pro--bold-italic.svg#freight-text-pro") format("svg"); } }
+
+body, html {
+  font-family: "segoe-ui";
+  font-weight: 300;
+  font-style: normal;
+  margin: 0 auto;
+  width: 1189px; }
+
+.header {
+  background: url("header.png") no-repeat center top;
+  background-color: black;
+  height: 162px;
+  width: 1187px; }
+
+.dropdown.dropdown-lg .dropdown-menu {
+  margin-top: -1px;
+  padding: 6px 20px; }
+
+.input-group-btn .btn-group {
+  display: -webkit-box !important;
+  display: -webkit-flex !important;
+  display: -ms-flexbox !important;
+  display: flex !important; }
+
+.btn-group .btn {
+  border-radius: 0;
+  margin-left: -1px; }
+  .btn-group .btn:last-child {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px; }
+
+.btn-group .form-horizontal .btn[type="submit"] {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px; }
+
+.form-horizontal .form-group {
+  margin-left: 0;
+  margin-right: 0; }
+
+.form-group .form-control:last-child {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px; }
+
+.container {
+  padding: 20px 4px;
+  width: 100%;
+  max-width: 100%; }
+
+@media screen and (min-width: 768px) {
+  #adv-search {
+    width: 500px;
+    margin: 0 auto; }
+  .dropdown.dropdown-lg {
+    position: static !important; }
+    .dropdown.dropdown-lg .dropdown-menu {
+      min-width: 500px; } }

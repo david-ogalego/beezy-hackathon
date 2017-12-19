@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
-import { Input, Button } from 'reactstrap';
-import 'bootstrap/dist/css/bootstrap.css';
+import { Input, Button, InputGroup, InputGroupButton, ButtonDropdown,
+  DropdownItem, DropdownToggle, DropdownMenu } from 'reactstrap';
 import List from './List';
-import './App.css';
+import 'bootstrap/dist/css/bootstrap.css';
+import './styles.css';
 
 
 class App extends Component {
@@ -12,8 +13,10 @@ class App extends Component {
       querySearch: '',
       results: [],
       typeSearching: 'all',
-      urlBingSearch: 'https://api.cognitive.microsoft.com/bing/v7.0/search'
+      urlBingSearch: 'https://api.cognitive.microsoft.com/bing/v7.0/search',
+      dropdownOpen: false
     };
+    this.toggle = this.toggle.bind(this);
   }
   search = () => {
     const searchQuery = this.state.querySearch;
@@ -58,19 +61,48 @@ class App extends Component {
       })
     }
   }
+  toggle() {
+    this.setState({
+      dropdownOpen: !this.state.dropdownOpen
+    });
+  }
   render() {
     return (
       <div>
-        <Input placeholder="topic" onChange={this.onChangeInput} />
-        <Button color="primary" onClick={this.search} >Search</Button>
-        <Input type="select" name="select" id="exampleSelect" onChange={this.onChangeSelect}>
-            <option>All</option>
-            <option>News</option>
-            <option>Videos</option>
-            <option>Webpages</option>
-          </Input>
-        <List items={this.state.results}/>
+        <header class="header">
+        </header>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <InputGroup>
+                  <InputGroupButton>
+                    <ButtonDropdown isOpen={this.state.dropdownOpen} toggle={this.toggle}>
+                      <DropdownToggle caret>
+                        Filter by
+                      </DropdownToggle>
+                      <DropdownMenu  onChange={this.onChangeSelect}>
+                        <DropdownItem>All</DropdownItem>
+                        <DropdownItem divider />
+                        <DropdownItem>News</DropdownItem>
+                        <DropdownItem divider />
+                        <DropdownItem>Videos</DropdownItem>
+                        <DropdownItem divider />
+                        <DropdownItem>Webpages</DropdownItem>
+                      </DropdownMenu>
+                    </ButtonDropdown></InputGroupButton>
+                    <Input placeholder="Add your topic here..." onChange={this.onChangeInput} />
+                  <InputGroupButton><Button color="primary" onClick={this.search} >Search</Button></InputGroupButton>
+                </InputGroup>
+                <List items={this.state.results}/>
+            </div>
+          </div>
+        </div>
       </div>
+
+
+
+
+
     );
   }
 }

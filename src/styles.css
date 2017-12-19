@@ -133,13 +133,13 @@ body, html {
   font-weight: 300;
   font-style: normal;
   margin: 0 auto;
-  width: 1189px; }
+  width: 1193px; }
 
 .header {
   background: url("header.png") no-repeat center top;
   background-color: black;
-  height: 162px;
-  width: 1187px; }
+  height: 220px;
+  width: 1193px; }
 
 .dropdown.dropdown-lg .dropdown-menu {
   margin-top: -1px;

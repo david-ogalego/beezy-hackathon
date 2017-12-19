@@ -175,6 +175,22 @@ body, html {
   width: 100%;
   max-width: 100%; }
 
+button {
+  cursor: pointer; }
+
+ul {
+  padding: 10px 0 0 13px; }
+  ul li {
+    list-style-type: decimal;
+    padding: 24px 0 29px 13px;
+    border-bottom: 1px solid #bcbcbc; }
+    ul li:last-child {
+      border: 0; }
+
+strong {
+  font-weight: 800;
+  font-style: normal; }
+
 @media screen and (min-width: 768px) {
   #adv-search {
     width: 500px;

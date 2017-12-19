@@ -38,15 +38,15 @@ export default class List extends Component  {
             {this.props.items.map(element =>
                 <li>
                     <p>
-                    Title: {element.title}
+                        <strong class="title">Title:</strong> {element.title}
                     </p>
                     <p>
-                    Description: {element.description}
+                        <strong class="title">Description:</strong> {element.description}
                     </p>
                     <p>
-                    Url: {element.url}
+                        <strong class="title">Url:</strong> {element.url}
                     </p>
-                    <Button >See tags</Button>
+                    <Button color="info">See tags</Button>
                 </li>
             )}
         </ul>
